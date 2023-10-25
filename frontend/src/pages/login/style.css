@@ -1,0 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+.login-segment {
+  background-image: url("./../../assets/background 1.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.content-login {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-grow: 2;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+
+  padding: 0px 200px;
+
+  margin-bottom: 130px;
+}
+
+.text-login {
+  width: 40%;
+  height: 62%;
+
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 75px;
+  gap: 15px;
+}
+
+.form-login {
+  width: 35%;
+  height: 62%;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  padding: 15px 25px;
+  gap: 8px;
+
+}
+
+
+.text-login h1,
+h2 {
+  color: white;
+}
+
+.text-login h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+
+.text-login h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 23px;
+}
+
+.text-login button {
+  height: 48px;
+  width: 45%;
+
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+
+  color: white;
+  background-color: #7978d9;
+  border: none;
+
+  border-radius: 5px;
+  margin-top: 35px;
+}
+
+
+.form-login h1 {
+  color: #7978D9;
+  font-family: Rubik, sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.form-login form label {
+  color: #484848;
+  font-size: 18px;
+  font-family: Rubik, sans-serif;
+}
+
+.form-login form input {
+  width: 100%;
+
+  height: 50px;
+  padding: 15px 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+
+  border-radius: 5px;
+  border: 1px solid rgb(151, 146, 146);
+}
+
+.form-login input:focus {
+  outline: none;
+}
+
+.login-button {
+  width: 100%;
+  height: 48px;
+
+  font-family: Rubik, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  background-color: #7978d9;
+  border: none;
+
+  border-radius: 5px;
+  margin-top: 25px;
+  cursor: pointer;
+
+}
+
+.text-login h1 span {
+  color: #7978D9;
+}
+
+
+
+
+
+@media screen and (max-width:1500px) {
+
+  .content-login {
+
+    gap: 130px;
+
+    padding: 0px 160px;
+
+  }
+
+  .form-login {
+    width: 55%;
+    height: 67%;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    padding: 15px 25px 35px 25px;
+    gap: 8px;
+
+  }
+
+  .text-login {
+    width: 57%;
+    height: 52%;
+
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 35px;
+    gap: 15px;
+  }
+
+  .text-login button {
+    height: 48px;
+    width: 45%;
+
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+
+    color: white;
+    background-color: #7978d9;
+    border: none;
+
+    border-radius: 5px;
+
+    padding: 8px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (width:1404px) {
+
+  .content-login {
+
+    gap: 130px;
+
+    padding: 0px 160px;
+
+  }
+
+  .form-login {
+    width: 55%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    padding: 15px 25px 35px 25px;
+    gap: 8px;
+
+  }
+
+  .text-login {
+    width: 57%;
+    height: 52%;
+
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 35px;
+    gap: 15px;
+  }
+
+  .text-login button {
+    height: 48px;
+    width: 45%;
+
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+
+    color: white;
+    background-color: #7978d9;
+    border: none;
+
+    border-radius: 5px;
+
+    padding: 8px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width:1040px) {
+  .login-segment {
+    height: 100%;
+  }
+
+  .content-login {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+    padding-bottom: 50px;
+  }
+
+  .text-login {
+    display: flex;
+    flex-direction: column;
+
+    width: 85%;
+    height: 37%;
+
+    padding-bottom: 90px;
+
+  }
+
+  .form-login {
+    display: flex;
+    flex-direction: column;
+
+    width: 85%;
+    height: 37%;
+
+    padding-bottom: 90px;
+
+  }
+
+  .text-login button {
+
+    width: 100%;
+
+  }
+
+}
+
+@media screen and (max-width:688px) {
+  .login-segment {
+    height: 100%;
+  }
+
+  .content-login {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+    padding-bottom: 50px;
+  }
+
+  .text-login {
+    display: flex;
+    flex-direction: column;
+
+    width: 120%;
+    height: 37%;
+
+    padding-bottom: 90px;
+
+  }
+
+  .form-login {
+    display: flex;
+    flex-direction: column;
+
+    width: 120%;
+    height: 37%;
+
+    padding-bottom: 90px;
+
+  }
+
+  .text-login button {
+
+    width: 100%;
+
+  }
+
+}
+
+@media screen and (max-width:576px) {
+  .login-segment {
+    height: 100%;
+  }
+
+  .content-login {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+    padding-bottom: 50px;
+  }
+
+  .text-login {
+    display: flex;
+    flex-direction: column;
+
+    width: 140%;
+    height: 37%;
+
+    padding-bottom: 90px;
+
+  }
+
+  .form-login {
+    display: flex;
+    flex-direction: column;
+
+    width: 140%;
+    height: 37%;
+
+    padding-bottom: 90px;
+
+  }
+
+  .text-login button {
+
+    width: 100%;
+
+  }
+
+}
+
+@media screen and (max-width:450px) {
+  .login-segment {
+    height: 100%;
+  }
+
+  .content-login {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+    padding-bottom: 50px;
+  }
+
+  .text-login {
+    display: flex;
+    flex-direction: column;
+
+    width: 300%;
+    height: 37%;
+
+    padding-bottom: 90px;
+
+  }
+
+  .form-login {
+    display: flex;
+    flex-direction: column;
+
+    width: 300%;
+    height: 37%;
+
+    padding-bottom: 90px;
+
+  }
+
+  .text-login button {
+
+    width: 100%;
+
+  }
+
+}

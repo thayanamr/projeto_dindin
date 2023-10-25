@@ -1,0 +1,40 @@
+.popup {
+  position: fixed;
+  width: 111px;
+  height: 53px;
+  background-color: #e4f2fd;
+  margin: 10px 100px 0px 0px;
+  padding: 1.125em 1.5em;
+  font-size: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3),
+    0 0.0625rem 0.125rem rgba(0, 0, 0, 0.2);
+}
+.popup::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 100%;
+  left: 15px;
+  border: 0.75rem solid transparent;
+  border-top: none;
+  border-bottom-color: #e4f2fd;
+  filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1));
+}
+
+.popup button {
+  width: 37px;
+  height: 15px;
+  border-radius: 4px;
+  font-size: 10px;
+  margin: 5px 2px 0px 0px;
+}
+
+.delete {
+  background-color: #3a9ff1;
+}
+
+.close {
+  background-color: #ff576b;
+}
