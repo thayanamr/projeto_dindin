@@ -196,4 +196,38 @@ No header da página principal **(main)** possui:
 Veja na imagem abaixo os ícones:
 ![](https://i.imgur.com/Njzp33e.png)
 
+### Como executar
 
+Pré-requisitos:
+
+- :warning: [Node](https://nodejs.org/en/download/)
+
+No terminal, clone o projeto:
+
+```
+git clone https://github.com/thayanamr/projeto_dindin.git
+```
+
+Apos isso instale as dependências e bibliotecas dentro da pasta `Frontend`:
+
+```
+npm install
+```
+
+Executar o projeto, dentro da pasta `Frontend`
+
+```
+npm start
+```
+
+Pelo terminal, entre na pasta `Backend` , depois na `Api Frontend` instale as dependências e bibliotecas:
+
+```
+npm install
+```
+
+Executar o projeto, dentro da pasta `Api Frontend`
+
+```
+npm start
+```
