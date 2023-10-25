@@ -231,3 +231,5 @@ Executar o projeto, dentro da pasta `Api Frontend`
 ```
 npm start
 ```
+
+Copyright :copyright: 2023 - Dindin
