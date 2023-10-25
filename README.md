@@ -12,7 +12,7 @@
 
 ## Como rodar?
 
-- Para cada projeto [Front-end](./frontend/) e [Back-end](./backend/) é necessário instalarr as dependências com `npm install`.
+- Para cada projeto [Front-end](./frontend/) e [Back-end](./backend/) é necessário instalar as dependências com `npm install`.
 - Para cada projeto, basta usar o `npm run start` para subir ambos os projetos.
 
 ## Instruções
