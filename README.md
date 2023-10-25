@@ -1,18 +1,16 @@
-![](https://i.imgur.com/xG74tOh.png)
+<p align="center">
+    <img src="./src/assets/readme-header.png">
+</p>
 
-# Desafio | Back-end e Front-end - Módulo 4
+<h1 align="center">Desafio | Front-end e Back-end - Módulo 4</h1>
 
-## Como entregar?
+<p align="center">
+<img src="https://img.shields.io/badge/react-framework-blue?logo=react"/>
+<img src="https://img.shields.io/badge/vercel-deploy-blue?logo=vercel"/>
+<img src="https://img.shields.io/github/last-commit/thayanamr/projeto_cubosplayer">
+<img src="https://img.shields.io/badge/status-conclu%C3%ADdo-deploy"/>
+<img src="https://img.shields.io/badge/created_by-Thayana_Machado_&_Yuri_Moura-%23c999af" >
 
-- [ ] Faça o fork desse repositório para o seu GitHub
-- [ ] Clone o seu repositório em sua máquina
-- [ ] Desenvolva seu projeto, fazendo commits a cada alteração e push
-- [ ] Crie um PR (pull request)
-- [ ] Envie o link do pull request que você criou na plataforma da Cubos
-
-### ⚠️ Importante: Se o pull request não for criado e enviado na plataforma o feedback não será fornecido e constará como não entregue
-
-### ⚠️ Importante: Envie um PR por grupo!
 
 ## Como rodar?
 
