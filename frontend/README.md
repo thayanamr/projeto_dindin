@@ -1,37 +1,38 @@
-![](https://i.imgur.com/xG74tOh.png)
+<p align="center">
+    <img src="./src/assets/readme-header.png">
+</p>
 
-# Desafio | Front-end - Módulo 4
+<h1 align="center">Desafio | Front-end - Módulo 4</h1>
 
-## Descrição do desafio
+<p align="center">
+<img src="https://img.shields.io/badge/react-framework-blue?logo=react"/>
+<img src="https://img.shields.io/github/last-commit/thayanamr/projeto_dindin">
+<img src="https://img.shields.io/badge/status-conclu%C3%ADdo-deploy"/>
+<img src="https://img.shields.io/badge/created_by-Thayana_Machado_&_Yuri_Moura-%23c999af" >
 
-Após alguns meses trabalhando em projetos mais simples, você foi designado pelo seu Tech Lead para desenvolver uma aplicação que será apresentada a um cliente muito importante.
+</p>
 
-Para o seu desenvolvimento foi liberado o layout que você pode encontrar no seguinte [link](https://www.figma.com/file/BwOAJkF8OeMON36TyFdhkj/DinDin-2.0?node-id=0%3A1).
+## Descrição do Projeto
 
-Além disso, você pode acessar o mapa mental com o mapeamento das funcionalidades clicando no seguinte [link](https://miro.com/app/board/uXjVPZkmV7c=/?share_link_id=902157252329).
+O objetivo deste desafio proposto pela Cubos Academy é replicar o website e para o seu desenvolvimento foi liberado o layout disponível no seguinte [link](https://www.figma.com/file/BwOAJkF8OeMON36TyFdhkj/DinDin-2.0?node-id=0%3A1).
 
-O sistema trata-se de uma aplicação para controle de finanças pessoais. As funcionalidades são:
+Além disso, também foi disponibilizado o mapa mental com o mapeamento das funcionalidades clicando no seguinte [link](https://miro.com/app/board/uXjVPZkmV7c=/?share_link_id=902157252329).
 
-- Cadastro do usuário `*`
-- Login de usuário `*`
-- Deslogar usuário `*`
-- Cadastro de uma nova transação `*`
-- Edição de uma transação `*`
-- Exclusão de uma transação `*`
-- Listagem de transações `*`
-- Resumo das transações `*` (O valor de entradas, saídas e saldo é obtido por meio do endpoint de extrato da **API**)
-- Permitir ordenar a tabela por data (`Extra`)
-- Permitir o usuário filtrar a tabela por categoria (`Extra`)
-- Editar perfil de usuário (`Extra`)
+O sistema trata-se de uma aplicação para controle de finanças pessoais. 
 
-> **Note**
->
-> - As funcionalidades que estão `*` são obrigatórias
-> - As funcionalidades que estão marcadas com `Extra`, não são obrigatórias, mas valem pontos para aumentar seu desempenho na avaliação final
+### Funcionalidades
 
-## Detalhamento de Requisitos:
-
-# Pessoa A
+:heavy_check_mark: Cadastro do usuário 
+:heavy_check_mark: Login de usuário 
+:heavy_check_mark: Deslogar usuário 
+:heavy_check_mark: Cadastro de uma nova transação
+:heavy_check_mark: Edição de uma transação 
+:heavy_check_mark: Exclusão de uma transação 
+:heavy_check_mark: Listagem de transações
+:heavy_check_mark: Resumo das transações  (O valor de entradas, saídas e saldo é obtido por meio do endpoint de extrato da **API**)
+:heavy_check_mark: Permitir ordenar a tabela por data 
+:heavy_check_mark: Permitir o usuário filtrar a tabela por categoria 
+:heavy_check_mark: Editar perfil de usuário 
 
 ### Cadastro de um novo usuário:
 
@@ -39,25 +40,20 @@ Para cadastrar um novo usuário você terá que preencher o formulário na pági
 
 ![](https://i.imgur.com/BZNNvti.png)
 
-\*É importante garantir que todos os campos estão preenchidos, além de que as senha e confirmação de senha são iguais.
+\*Foi garantido que todos os campos estão preenchidos, além de que as senha e confirmação de senha são iguais.
 
-Ao clicar no botão **Cadastrar** você deverá enviar os dados do formulário para a **API** fazendo com que o sistema registre um novo usuário, caso dê certo o cadastro de um novo usuário, devemos redirecionar o usuário para a tela de **sign-in (login)**, assim ele já poderá se logar no sistema.
-
----
-
-# Pessoa A
+Ao clicar no botão **Cadastrar** você são enviados os dados do formulário para a **API** fazendo com que o sistema registre um novo usuário, caso dê certo o cadastro de um novo usuário, ele é redirecionadopara a tela de **sign-in (login)**, assim ele já poderá se logar no sistema.
 
 ### Login de usuário:
 
-1. Na página de login de usuário, temos um botão chamado **Cadastre-se**, esse botão deve levar o usuário para a tela de cadastrar um novo usuário **(sign-up)**:
-2. O formulário de login deve validar se os campos estão realmente preenchidos, se estiverem preenchidos você enviará uma requisição para a **API** para fazer o login desse usuário, é importante lembrar que existem informações como **token** e **userId** que precisam ser armazenadas no **localStorage** para que o usuário possa depois usar dentro da **área logada**.
-3. Caso o login dê certo o usuário deverá ser redirecionado para a tela principal (**main**) onde ele verá a listagem de suas transações.
+1. Na página de login de usuário, temos um botão chamado **Cadastre-se**, esse botão leva o usuário para a tela de cadastrar um novo usuário **(sign-up)**:
+2. O formulário de login valida se os campos estão realmente preenchidos, se estiverem preenchidos você enviará uma requisição para a **API** para fazer o login desse usuário, é importante lembrar que existem informações como **token** e **userId** que são armazenadas no **localStorage** para que o usuário possa depois usar dentro da **área logada**.
+3. Caso o login dê certo o usuário será redirecionado para a tela principal (**main**) onde ele verá a listagem de suas transações.
 4. Caso o usuário esteja logado, nós devemos bloquear o acesso dele a página de login, sendo assim, somente quando o usuário estiver deslogado que poderá acessar a página **sign-in (login)**.
 
 ![](https://i.imgur.com/vvnluj6.png)
 
 ---
-
 # Pessoa B
 
 ### Página principal (main):
